@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Starship Troopers: Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header id="mainArea" data-interchange="[images/hero_image.jpg, (default)], [images/hero_image_mobile.jpg, (small)]">
+    <h2 class="hidden">Main Navigation</h2>
+
+    <div class="top-bar-container" data-sticky-container>
+    <div class="sticky sticky-topbar" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+    <div class="show-for-small-only">
+
+        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <div class="title-bar-right">
+                <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+            </div>
+        </div>
+
+        <div id="example-menu">
+            <ul class="menu vertical medium-horizontal mainNav">
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="film.html">Film</a></li>
+                <li><a href="trailers.html">Trailers</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class=" hide-for-small-only off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+    <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+        
+        <ul class="vertical menu" id="homeMenu">
+            <li>
+            <a></a>
+            <ul id="homeNav" class="vertical menu mainNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="film.html">Film</a></li>
+                <li><a href="trailers.html">Trailers</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+               
+            </li>
+        </ul>
+    </div>
+
+<!--             <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button> -->
+
+    <div class="off-canvas-content" data-off-canvas-content>
+ 
+        <div class="homeMenuBtn">
+            <button type="button" data-open="offCanvasLeft">Menu</button>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="fullscreen-bg hide-for-small-only">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="video/trailer_background.webm" type="video/webm">
+        <source src="video/trailer_background.mp4" type="video/mp4">
+        <source src="video/trailer_background.ogv" type="video/ogg">
+    </video>
+</div>
+
+    <div class="row">
+        <div class="colums small-12 large-2 large-offset-10">
+        <a class="columns small-2 small-push-2 large-3 large-push-3" href="https://www.facebook.com/StarshipTroopersMovie/" target="_blank"><img class="iconSocialHome" src="images/facebook.svg" alt="facebook"></a>
+        <a class="columns small-2 small-push-3 large-3 large-push-4" href="https://twitter.com/starshipmovie?lang=en" target="_blank"><img class="iconSocialHome" src="images/twitter.svg" alt="twitter"></a>
+        <a class="columns small-2 small-pull-2 large-3 large-push-2" href="https://www.instagram.com/starshiptroopersmovie/?hl=en" target="_blank"> <img class="iconSocialHome" src="images/instagram.svg" alt="instagram"></a>
+        </div>
+    </div>
+
+
+    <div class="row">  
+        <img id="mainLogo" class="columns large-8 large-offset-2" src="images/starship_troopers_logo.png" alt="Starship Troopers Logo">
+    </div>
+
+    <div id="promotionText" class="row">
+        <h4 class="columns small-12 large-6 large-push-3">Celebrate the 20th Anniversary of the Academy Award nominated cult classic.</h4>
+    </div>
+
+</header>
+
+
+<section id="connectionSection" class="row expanded">
+    <h1 class="hidden">Connections</h1>
+   
+        <div id="connectionLinks" class="row expanded small-12 large-12 large-centerd">
+      
+            <div class="columns large-4">
+                <div class="columns small-10 small-offset-1 large-10 connectionBtn">
+                    <a class="column small-2 small-push-1 large-2 large-push-1" href="trailers.html"><img class="icon" src="images/play.svg" alt="Play"></a>
+                    <h4 class="column small-6 large-6">Watch Trailer</h4>
+                </div>
+            </div>
+          
+            <div class="columns large-4">
+                <div class="columns small-10 small-offset-1 large-10 connectionBtn">
+                    <h4 class="column small-6 large-8 large-push-1">Get Tickets</h4>
+                    <a class="columns small-2 large-2 large-pull-2" href="https://www.fandango.com/" target="_blank"><img class="icon" src="images/fandango.svg" alt="Fandango"></a>
+                    <a class="columns small-2 large-2 large-pull-1" href="https://www.movietickets.ca/" target="_blank"><img class="icon" src="images/movietickets.svg" alt="Movie Tickets"></a>
+                </div>
+            </div>
+      
+            <div class="columns large-4">
+                <div class="columns small-10 small-offset-1 large-10 connectionBtn">
+                    <h4 class="columns small-6 small-push-1 medium-6 medium-push-1 large-6 large-push-1">Buy Copy</h4>
+                    <a class="columns small-4 large-4 large-pull-1" href="https://www.amazon.com/Starship-Troopers-Blu-ray-Casper-Dien/dp/B07288ZGX7/ref=pd_lpo_sbs_74_t_0/144-3158280-5838042?_encoding=UTF8&psc=1&refRID=2TBCEQ1MTNRSVBCXA76Q&dpID=61vPt08xnyL&preST=_SY300_QL70_&dpSrc=detail" target="_blank"> <img class="iconAmazon" src="images/amazon.svg" alt="Amazon"></a>
+                </div>
+            </div>
+    </div>
+</section>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/film.js"></script>
+
+</body>
+</html>
